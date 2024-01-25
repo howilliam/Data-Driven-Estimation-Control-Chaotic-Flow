@@ -1,0 +1,17 @@
+
+DO EVERYTHING ON LINUX BECAUSE PARALLEL COMPUTER IS FASTER ON LINUX
+
+STEP 1: Extract data from CFD (STAR-CCM+ used) from Data Extraction folder
+
+STEP 2: Reduced the model order using Proper Orthogonal Decomposition (POD) using POD folder
+
+STEP 3: Build estimator and use the SID folder
+
+STEP 4: Build Controller, need to excite the model first (RBS signal used) at actuator location on STAR-CCM+ and then repeat STEP 1-2 to get excited version, use new POD to build modified estimator and controller using the Control folder
+
+
+
+'Legacy' folder are the previous codes that i looked at and have either adopted or partially used 
+
+
+
